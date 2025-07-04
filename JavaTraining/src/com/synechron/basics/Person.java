@@ -18,6 +18,17 @@ public class Person {
 		return value;
 	}
 
+	public Person()
+	{
+		
+	}
+	public Person(String name, int age,double wt,double ht)
+	{
+		this.name = name;
+		this.age = age;
+		this.height = ht;
+		this.weight = wt;
+	}
 
 	public void canSpeakRegionalLanguage() {
 		// TODO Auto-generated method stub
